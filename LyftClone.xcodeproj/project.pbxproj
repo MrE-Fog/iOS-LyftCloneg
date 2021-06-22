@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF4B28482675B1EF008333BA /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4B28472675B1EF008333BA /* Driver.swift */; };
+		BF4B284B2675B2E3008333BA /* DriverService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4B284A2675B2E3008333BA /* DriverService.swift */; };
+		BF4B284E2675BE29008333BA /* DriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4B284D2675BE29008333BA /* DriverViewController.swift */; };
+		BF7E5DF62671EB5D00FBC68E /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7E5DF52671EB5D00FBC68E /* LocationViewController.swift */; };
+		BFC21EB1267494D500319E7C /* RideQuoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC21EB0267494D500319E7C /* RideQuoteCell.swift */; };
+		BFC21EB4267497F600319E7C /* RouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC21EB3267497F600319E7C /* RouteViewController.swift */; };
+		BFC21EB72674A04500319E7C /* LocationAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC21EB62674A04500319E7C /* LocationAnnotation.swift */; };
+		BFFC4AA5267094CF0053F641 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFC4AA4267094CF0053F641 /* AppDelegate.swift */; };
+		BFFC4AA7267094CF0053F641 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFC4AA6267094CF0053F641 /* SceneDelegate.swift */; };
+		BFFC4AAC267094CF0053F641 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFFC4AAA267094CF0053F641 /* Main.storyboard */; };
+		BFFC4AAE267094D00053F641 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFFC4AAD267094D00053F641 /* Assets.xcassets */; };
+		BFFC4AB1267094D00053F641 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFFC4AAF267094D00053F641 /* LaunchScreen.storyboard */; };
+		BFFC4ABF2670960D0053F641 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFC4ABE2670960D0053F641 /* Location.swift */; };
+		BFFC4AC2267096C70053F641 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFC4AC1267096C70053F641 /* LocationService.swift */; };
+		BFFC4AC52670982B0053F641 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = BFFC4AC42670982B0053F641 /* locations.json */; };
+		BFFC4AC826709A420053F641 /* RideQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFC4AC726709A420053F641 /* RideQuote.swift */; };
+		BFFC4ACB26709B410053F641 /* RideQuoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFC4ACA26709B410053F641 /* RideQuoteService.swift */; };
+		BFFC4ACE2670A7A60053F641 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFC4ACD2670A7A60053F641 /* HomeViewController.swift */; };
+		BFFC4AD12670AAB90053F641 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFC4AD02670AAB90053F641 /* LocationCell.swift */; };
+		BFFC4AD42670B4960053F641 /* VehicleAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFC4AD32670B4960053F641 /* VehicleAnnotation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF4B28472675B1EF008333BA /* Driver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
+		BF4B284A2675B2E3008333BA /* DriverService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverService.swift; sourceTree = "<group>"; };
+		BF4B284D2675BE29008333BA /* DriverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverViewController.swift; sourceTree = "<group>"; };
+		BF7E5DF52671EB5D00FBC68E /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		BFC21EB0267494D500319E7C /* RideQuoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideQuoteCell.swift; sourceTree = "<group>"; };
+		BFC21EB3267497F600319E7C /* RouteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteViewController.swift; sourceTree = "<group>"; };
+		BFC21EB62674A04500319E7C /* LocationAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAnnotation.swift; sourceTree = "<group>"; };
+		BFFC4AA1267094CF0053F641 /* LyftClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LyftClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFFC4AA4267094CF0053F641 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFFC4AA6267094CF0053F641 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BFFC4AAB267094CF0053F641 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFFC4AAD267094D00053F641 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFFC4AB0267094D00053F641 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFFC4AB2267094D00053F641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFFC4ABE2670960D0053F641 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		BFFC4AC1267096C70053F641 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		BFFC4AC42670982B0053F641 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		BFFC4AC726709A420053F641 /* RideQuote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideQuote.swift; sourceTree = "<group>"; };
+		BFFC4ACA26709B410053F641 /* RideQuoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideQuoteService.swift; sourceTree = "<group>"; };
+		BFFC4ACD2670A7A60053F641 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BFFC4AD02670AAB90053F641 /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
+		BFFC4AD32670B4960053F641 /* VehicleAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleAnnotation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFFC4A9E267094CF0053F641 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFFC4A98267094CF0053F641 = {
+			isa = PBXGroup;
+			children = (
+				BFFC4AA3267094CF0053F641 /* LyftClone */,
+				BFFC4AA2267094CF0053F641 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFFC4AA2267094CF0053F641 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFFC4AA1267094CF0053F641 /* LyftClone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFFC4AA3267094CF0053F641 /* LyftClone */ = {
+			isa = PBXGroup;
+			children = (
+				BFFC4ABB267095780053F641 /* Controller */,
+				BFFC4ABA267095700053F641 /* View */,
+				BFFC4AB9267095690053F641 /* Model */,
+				BFFC4AA4267094CF0053F641 /* AppDelegate.swift */,
+				BFFC4AA6267094CF0053F641 /* SceneDelegate.swift */,
+				BFFC4AAD267094D00053F641 /* Assets.xcassets */,
+				BFFC4AAF267094D00053F641 /* LaunchScreen.storyboard */,
+				BFFC4AB2267094D00053F641 /* Info.plist */,
+			);
+			path = LyftClone;
+			sourceTree = "<group>";
+		};
+		BFFC4AB9267095690053F641 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BFFC4ABE2670960D0053F641 /* Location.swift */,
+				BFFC4AC1267096C70053F641 /* LocationService.swift */,
+				BFFC4AC42670982B0053F641 /* locations.json */,
+				BFFC4AC726709A420053F641 /* RideQuote.swift */,
+				BFFC4ACA26709B410053F641 /* RideQuoteService.swift */,
+				BFFC4AD32670B4960053F641 /* VehicleAnnotation.swift */,
+				BFC21EB62674A04500319E7C /* LocationAnnotation.swift */,
+				BF4B28472675B1EF008333BA /* Driver.swift */,
+				BF4B284A2675B2E3008333BA /* DriverService.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BFFC4ABA267095700053F641 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BFFC4AAA267094CF0053F641 /* Main.storyboard */,
+				BFFC4AD02670AAB90053F641 /* LocationCell.swift */,
+				BFC21EB0267494D500319E7C /* RideQuoteCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BFFC4ABB267095780053F641 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BFFC4ACD2670A7A60053F641 /* HomeViewController.swift */,
+				BF7E5DF52671EB5D00FBC68E /* LocationViewController.swift */,
+				BFC21EB3267497F600319E7C /* RouteViewController.swift */,
+				BF4B284D2675BE29008333BA /* DriverViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFFC4AA0267094CF0053F641 /* LyftClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFFC4AB5267094D00053F641 /* Build configuration list for PBXNativeTarget "LyftClone" */;
+			buildPhases = (
+				BFFC4A9D267094CF0053F641 /* Sources */,
+				BFFC4A9E267094CF0053F641 /* Frameworks */,
+				BFFC4A9F267094CF0053F641 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LyftClone;
+			productName = LyftClone;
+			productReference = BFFC4AA1267094CF0053F641 /* LyftClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFFC4A99267094CF0053F641 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					BFFC4AA0267094CF0053F641 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = BFFC4A9C267094CF0053F641 /* Build configuration list for PBXProject "LyftClone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFFC4A98267094CF0053F641;
+			productRefGroup = BFFC4AA2267094CF0053F641 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFFC4AA0267094CF0053F641 /* LyftClone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFFC4A9F267094CF0053F641 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFC4AB1267094D00053F641 /* LaunchScreen.storyboard in Resources */,
+				BFFC4AAE267094D00053F641 /* Assets.xcassets in Resources */,
+				BFFC4AC52670982B0053F641 /* locations.json in Resources */,
+				BFFC4AAC267094CF0053F641 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFFC4A9D267094CF0053F641 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF4B284E2675BE29008333BA /* DriverViewController.swift in Sources */,
+				BFC21EB1267494D500319E7C /* RideQuoteCell.swift in Sources */,
+				BF4B28482675B1EF008333BA /* Driver.swift in Sources */,
+				BFC21EB72674A04500319E7C /* LocationAnnotation.swift in Sources */,
+				BFFC4ACB26709B410053F641 /* RideQuoteService.swift in Sources */,
+				BFC21EB4267497F600319E7C /* RouteViewController.swift in Sources */,
+				BFFC4AA5267094CF0053F641 /* AppDelegate.swift in Sources */,
+				BFFC4ABF2670960D0053F641 /* Location.swift in Sources */,
+				BFFC4AC2267096C70053F641 /* LocationService.swift in Sources */,
+				BFFC4AC826709A420053F641 /* RideQuote.swift in Sources */,
+				BF7E5DF62671EB5D00FBC68E /* LocationViewController.swift in Sources */,
+				BF4B284B2675B2E3008333BA /* DriverService.swift in Sources */,
+				BFFC4ACE2670A7A60053F641 /* HomeViewController.swift in Sources */,
+				BFFC4AD42670B4960053F641 /* VehicleAnnotation.swift in Sources */,
+				BFFC4AD12670AAB90053F641 /* LocationCell.swift in Sources */,
+				BFFC4AA7267094CF0053F641 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BFFC4AAA267094CF0053F641 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFFC4AAB267094CF0053F641 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFFC4AAF267094D00053F641 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFFC4AB0267094D00053F641 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFFC4AB3267094D00053F641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFFC4AB4267094D00053F641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFFC4AB6267094D00053F641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T9MD4URZFH;
+				INFOPLIST_FILE = LyftClone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.superkookai.LyftClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFFC4AB7267094D00053F641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T9MD4URZFH;
+				INFOPLIST_FILE = LyftClone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.superkookai.LyftClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFFC4A9C267094CF0053F641 /* Build configuration list for PBXProject "LyftClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFFC4AB3267094D00053F641 /* Debug */,
+				BFFC4AB4267094D00053F641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFFC4AB5267094D00053F641 /* Build configuration list for PBXNativeTarget "LyftClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFFC4AB6267094D00053F641 /* Debug */,
+				BFFC4AB7267094D00053F641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFFC4A99267094CF0053F641 /* Project object */;
+}
